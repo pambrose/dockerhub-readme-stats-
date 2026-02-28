@@ -1,0 +1,26 @@
+{
+  "name": "dockerhub-readme-stats",
+  "version": "1.0.0",
+  "description": "Dynamically generated Docker Hub stats for your GitHub READMEs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "dockerhub",
+    "docker",
+    "stats",
+    "badge",
+    "readme",
+    "svg"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}

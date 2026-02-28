@@ -1,0 +1,81 @@
+const themes = {
+  default: {
+    titleColor: "#2f80ed",
+    textColor: "#333333",
+    iconColor: "#4c71f2",
+    bgColor: "#ffffff",
+    borderColor: "#e4e2e2",
+  },
+  dark: {
+    titleColor: "#ffffff",
+    textColor: "#9f9f9f",
+    iconColor: "#79ff97",
+    bgColor: "#151515",
+    borderColor: "#e4e2e2",
+  },
+  radical: {
+    titleColor: "#fe428e",
+    textColor: "#a9fef7",
+    iconColor: "#f8d847",
+    bgColor: "#141321",
+    borderColor: "#e4e2e2",
+  },
+  merko: {
+    titleColor: "#abd200",
+    textColor: "#68b587",
+    iconColor: "#b7d364",
+    bgColor: "#0a0f0b",
+    borderColor: "#e4e2e2",
+  },
+  gruvbox: {
+    titleColor: "#fabd2f",
+    textColor: "#8ec07c",
+    iconColor: "#fe8019",
+    bgColor: "#282828",
+    borderColor: "#e4e2e2",
+  },
+  tokyonight: {
+    titleColor: "#70a5fd",
+    textColor: "#38bdae",
+    iconColor: "#bf91f3",
+    bgColor: "#1a1b27",
+    borderColor: "#e4e2e2",
+  },
+  onedark: {
+    titleColor: "#e4bf7a",
+    textColor: "#df6d74",
+    iconColor: "#8eb573",
+    bgColor: "#282c34",
+    borderColor: "#e4e2e2",
+  },
+  cobalt: {
+    titleColor: "#e683d9",
+    textColor: "#75eeb2",
+    iconColor: "#0480ef",
+    bgColor: "#193549",
+    borderColor: "#e4e2e2",
+  },
+  synthwave: {
+    titleColor: "#e2e9ec",
+    textColor: "#e5289e",
+    iconColor: "#ef8539",
+    bgColor: "#2b213a",
+    borderColor: "#e4e2e2",
+  },
+  dracula: {
+    titleColor: "#ff6e96",
+    textColor: "#f8f8f2",
+    iconColor: "#bd93f9",
+    bgColor: "#282a36",
+    borderColor: "#e4e2e2",
+  },
+  blue_navy: {
+    titleColor: "#4db8ff",
+    textColor: "#a6c8ff",
+    iconColor: "#00bfff",
+    bgColor: "#001f3f",
+    borderColor: "#e4e2e2",
+  },
+};
+
+module.exports = { themes };
