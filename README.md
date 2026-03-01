@@ -27,6 +27,7 @@ Add this to your README:
 |-----------|-------------|---------|
 | `image` | **Required.** Docker Hub image (`nginx` or `user/repo`) | — |
 | `theme` | Theme name (see [themes](#themes)) | `default` |
+| `label` | Text shown after the image name in the title | `Stats` |
 | `title_color` | Title color (hex without `#`) | theme default |
 | `text_color` | Text color (hex) | theme default |
 | `icon_color` | Icon color (hex) | theme default |

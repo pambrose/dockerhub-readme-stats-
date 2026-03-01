@@ -18,6 +18,7 @@ module.exports = async (req, res) => {
     border_radius,
     cache_seconds,
     width,
+    label,
   } = req.query;
 
   try {
@@ -50,6 +51,7 @@ module.exports = async (req, res) => {
       custom_title,
       border_radius: parseFloat(border_radius) || 4.5,
       width: parseInt(width) || 400,
+      label,
     });
 
     return res.send(svg);

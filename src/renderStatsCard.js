@@ -21,6 +21,7 @@ function renderStatsCard(stats, options = {}) {
     custom_title,
     border_radius = 4.5,
     width = 400,
+    label = "Stats",
   } = options;
 
   const theme = themes[themeName] || themes.default;
@@ -36,7 +37,7 @@ function renderStatsCard(stats, options = {}) {
   const hiddenStats = hide.split(",").map((s) => s.trim().toLowerCase());
 
   const title = escapeXml(
-    custom_title || `${stats.fullName} Stats`
+    custom_title || `${stats.fullName} ${label}`
   );
 
   const statItems = [];
