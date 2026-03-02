@@ -1,6 +1,6 @@
 const themes = {
   default: {
-    titleColor: "#28B8EB",
+    titleColor: "#009BC6",
     textColor: "#333333",
     iconColor: "#009BC6",
     bgColor: "#ffffff",
